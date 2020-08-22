@@ -25,7 +25,7 @@ $(function () {
     $(".layui-form").on("submit", function (e) {
         e.preventDefault()
         // 发送ajax请求
-        console.log($(this).serialize());
+        //  console.log($(this).serialize());
 
         $.ajax({
             method: "POST",
